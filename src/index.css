@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+video{
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+}
+.container{
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+}
+.red-block{
+  width: 25px;
+  height: 400px;
+  background-color: red;
+}
+.blue-block{
+  width: 25px;
+  height: 400px;
+  background-color: blue;
+}
