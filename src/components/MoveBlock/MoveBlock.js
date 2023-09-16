@@ -1,5 +1,6 @@
 import '../../index.css'
 import React, {Component} from "react";
+import video from '../video/fon4.mp4'
 class MoveBlock extends Component{
     constructor(props) {
         super(props)
@@ -17,6 +18,7 @@ class MoveBlock extends Component{
     render(){
         return(
             <div className="wrapper">
+                <video src={video} autoPlay loop controls></video>
                 <div className="container" >
                     <div className="red-block" onClick={() => this.changeColor()} style={{backgroundColor: this.state.color}}>
 
